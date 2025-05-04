@@ -292,3 +292,13 @@ img {
   border-radius: 6px;
   transition: background-color 0.3s eas
 }
+
+.association-card img {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
