@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Education & Tutoring | Integral Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <div class="logo">Integral Project</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="team.html">Our Team</a></li>
+          <li><a href="volunteering.html">Volunteering</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="container">
+    <h2>Education & Tutoring</h2>
+    <p>These are the NGOs that need volunteers in the field of education:</p>
+    <ul class="ngo-list">
+      <li><strong>Teach For Change</strong> - Helping children from disadvantaged backgrounds get tutoring support.</li>
+      <li><strong>Learning Together</strong> - Organizes online lessons for underserved communities.</li>
+      <li><strong>Books & Brains</strong> - Distributes educational material and provides mentoring in rural areas.</li>
+    </ul>
+  </section>
+
+  <section class="form-section">
+    <div class="container">
+      <h3>Interested? Send us your details!</h3>
+      <form class="contact-form" action="https://formspree.io/f/xzzreayj" method="POST">
+        <!-- Desactivar CAPTCHA (opcional) -->
+        <input type="hidden" name="_captcha" value="false">
+        
+        <!-- Redirigir después de enviar (opcional) -->
+        <input type="hidden" name="_next" value="https://cejotape.github.io/final_project/gracias.html">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="skills">Skills or Experience</label>
+          <textarea id="skills" name="skills" rows="4" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="why">Why are you interested?</label>
+          <textarea id="why" name="why" rows="4" required></textarea>
+        </div>
+        <button class="btn" type="submit">Send Info</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Integral Project - EPS</p>
+  </footer>
+</body>
+</html>
